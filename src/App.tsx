@@ -2,6 +2,7 @@ import { Calendar } from "./components/Calendar";
 import { useState } from "react";
 
 import s from "./components/Calendar/calendar.module.css";
+import { DatePicker } from "./components/DatePicker";
 
 const App = () => {
   const [lang, setLang] = useState("en");
@@ -55,6 +56,15 @@ const App = () => {
           The Selected Date is {release.date} / {release.month} / {release.year}
         </p>
       </div>
+      <DatePicker />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam explicabo
+        delectus placeat architecto, excepturi ad expedita sequi temporibus
+        incidunt, dignissimos officiis culpa reprehenderit suscipit soluta
+        voluptatum perspiciatis eaque voluptas fugit neque? Culpa quo, odio quod
+        ullam fuga, reprehenderit accusamus tempora perferendis neque, at sequi
+        voluptate? Numquam modi porro veniam eaque!
+      </p>
     </div>
   );
 };
