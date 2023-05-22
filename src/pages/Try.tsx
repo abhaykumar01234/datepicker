@@ -1,6 +1,7 @@
 import { Calendar } from "../components/Calendar";
 import { useState } from "react";
 import { DatePicker } from "../components/DatePicker";
+import "./try.css";
 import s from "../components/Calendar/calendar.module.css";
 
 export const Try = () => {

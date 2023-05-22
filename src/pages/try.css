@@ -1,0 +1,41 @@
+input.dateInput {
+  padding: 8px 16px;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  min-width: 275px;
+}
+
+.cell {
+  cursor: default;
+  text-align: center;
+  aspect-ratio: 1 / 1;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background: rgba(0, 20, 56, 0.3);
+}
+
+.selected {
+  background: #002856;
+  color: white;
+}
+
+.unavailable {
+  color: red;
+}
+
+.disabled {
+  color: gray;
+}
+
+.popper-content {
+  width: var(--radix-popover-trigger-width);
+  padding: 1rem;
+  border: 1px solid grey;
+  background: #fff;
+}
